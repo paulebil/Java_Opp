@@ -14,7 +14,8 @@ public class exampleTwo {
         // Asking for user name
         System.out.println("How old are you");
 
-        int age = sc.nextLine();
+        int age = sc.nextInt();
+        sc.nextLine();
 
         // Asking for favourite color
         System.out.println("What is your favourite color");
